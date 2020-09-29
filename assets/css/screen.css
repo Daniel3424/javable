@@ -113,3 +113,24 @@
     border-top: 1px solid #e6e6e6;
     margin: 30px auto;
 }
+
+.post-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.post-footer > .tags > h2 {
+  margin-top: 0;
+}
+
+.shares {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.shares > * {
+  margin: 0 5px;
+  height: fit-content;
+}
